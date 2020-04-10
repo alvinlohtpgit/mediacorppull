@@ -6,7 +6,7 @@ const axios = require('axios');
 
 
 const channelNames = ['Channel 5' , 'Channel 8' , 'Channel U' , 'Suria' , 'Vasantham' , 'CNA'];
-mongoose.connect('mongodb+srv://mediausr:0ZEQZvPlorNnaElP@mediacorpcluster0-deyt6.azure.mongodb.net/tvguide?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://mediausr:@mediacorpcluster0-deyt6.azure.mongodb.net/tvguide?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 
 //mongoose.connect('mongodb://localhost:27017/tvguide', {useNewUrlParser: true, useUnifiedTopology: true});
 
